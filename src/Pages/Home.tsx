@@ -1,4 +1,5 @@
 import React from 'react'
+import Spinner from '../Components/Spinner';
 import { useGetProductsQuery } from '../services/productsApi';
 import ProductList from './../Components/ProductList';
 
@@ -10,9 +11,9 @@ console.log(data);
 return (
 <div className="App">
   {isLoading ? (
-    <div>...loading</div>
+    <Spinner/>
   ) : isFetching ? (
-    <div>...fetching</div>
+    <Spinner/>
   ) : isSuccess ? (
     <ProductList/>
   ) : isError ? (

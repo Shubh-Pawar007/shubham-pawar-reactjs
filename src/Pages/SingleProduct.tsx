@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import Spinner from "../Components/Spinner";
 import { useGetProductsByIdQuery } from "../services/productsApi";
 
 
@@ -16,9 +17,9 @@ const SingleProduct = () => {
   return (
     <>
       {isLoading ? (
-        <div>...loading</div>
+        <Spinner/>
       ) : isFetching ? (
-        <div>...fetching</div>
+        <Spinner/>
       ) : isSuccess ? (
         <div className="w-1/2 mx-60 my-20">
          <div className="bg-indigo-300 ... ">

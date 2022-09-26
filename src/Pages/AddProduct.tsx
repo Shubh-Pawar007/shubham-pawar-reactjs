@@ -42,7 +42,7 @@ const AddProduct = () => {
       };
   return (
     <div className="flex-col flex justify-center items-center ">
-      <div className="w-1/2 border-2 ">
+      <div className="w-1/2 my-2 mt-10">
         <label
           htmlFor="price"
           className="block text-sm font-bold text-gray-700"
@@ -63,7 +63,7 @@ const AddProduct = () => {
         </div>
       </div>
 
-      <div className="w-1/2 border-2 ">
+      <div className="w-1/2 my-2 ">
         <label
           htmlFor="price"
           className="block text-sm font-bold text-gray-700"
@@ -84,7 +84,7 @@ const AddProduct = () => {
         </div>
       </div>
 
-      <div className="w-1/2 border-2">
+      <div className="w-1/2 my-2">
                   <label
                     htmlFor="price"
                     className="block text-sm font-bold text-gray-700 pl-1"
@@ -109,7 +109,7 @@ const AddProduct = () => {
                   </div>
                 </div>
 
-      <div className="w-1/2 border-2 ">
+      <div className="w-1/2 my-2 ">
         <label
           htmlFor="price"
           className="block text-sm font-bold text-gray-700"
@@ -130,7 +130,7 @@ const AddProduct = () => {
         </div>
       </div>
 
-      <div className="w-1/2 border-2 ">
+      <div className="w-1/2 my-2 ">
         <label
           htmlFor="price"
           className="block text-sm font-bold text-gray-700"
@@ -151,7 +151,7 @@ const AddProduct = () => {
         </div>
       </div>
 
-      <div className="w-1/2 border-2 ">
+      <div className="w-1/2 my-2 ">
         <label
           htmlFor="price"
           className="block text-sm font-bold text-gray-700"
