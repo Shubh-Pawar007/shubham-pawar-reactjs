@@ -59,6 +59,7 @@ const AddProduct = () => {
                onChange={handleChange}
             className="block border w-full rounded-md border-gray-300 px-3 py-2  focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             placeholder="Enter Name..."
+            required
           />
         </div>
       </div>
@@ -80,6 +81,7 @@ const AddProduct = () => {
               onChange={handleChange}
             className="block border w-full rounded-md border-gray-300 px-3 py-2  focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             placeholder="Enter Name..."
+            required
           />
         </div>
       </div>
@@ -126,6 +128,7 @@ const AddProduct = () => {
                onChange={handleChange}
             className="block border w-full rounded-md border-gray-300 px-3 py-2  focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             placeholder="Enter Name..."
+            required
           />
         </div>
       </div>
@@ -147,6 +150,7 @@ const AddProduct = () => {
                onChange={handleChange}
             className="block border w-full rounded-md border-gray-300 px-3 py-2  focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             placeholder="Enter Name..."
+            required
           />
         </div>
       </div>
