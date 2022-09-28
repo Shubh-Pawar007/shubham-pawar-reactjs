@@ -41,7 +41,9 @@ const AddProduct = () => {
         }
       };
   return (
-    <div className="flex-col flex justify-center items-center ">
+    <>
+    
+    <div className="flex-col flex justify-center items-center  ">
       <div className="w-1/2 my-2 mt-10">
         <label
           htmlFor="price"
@@ -183,6 +185,7 @@ const AddProduct = () => {
                 Add Product
               </button>
     </div>
+    </>
   );
 };
 
