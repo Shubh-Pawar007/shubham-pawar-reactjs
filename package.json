@@ -2,6 +2,7 @@
   "name": "shubham-pawar-reactjs",
   "version": "0.1.0",
   "private": true,
+  "homepage":".",
   "dependencies": {
     "@heroicons/react": "^2.0.11",
     "@reduxjs/toolkit": "^1.8.5",
